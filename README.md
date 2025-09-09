@@ -25,3 +25,5 @@ This project focuses on simplicity, usability, and performance by using only bas
 It demonstrates my knowledge of core web technologies and the ability to design and develop a fully functional web application from scratch.
 
 🌟 Whether you’re a fitness enthusiast or someone looking to lead a healthier lifestyle, HealthIsWealth provides an interactive space to share your journey, gain insights, and stay motivated 💚.
+
+>>The admin, user page and javascript files are still to be added.
