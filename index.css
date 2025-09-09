@@ -1,0 +1,489 @@
+.btn{
+    font-size: 75%;
+    border-radius: 15px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-1{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar
+{
+    background-color: whitesmoke;
+    border: 0px 10px #000;
+    box-shadow: 0px 2px 5px 0px gray;
+    opacity: 0.85;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+
+}
+.navbar h1{
+    color: #000;
+}
+.menu ul{
+    display: flex;
+    gap: 10px;
+}
+.menu li{
+    list-style: none;
+    font-size: 18px;
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+}
+
+.button2{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+/* HOME PAGE */
+#Home{
+    background-color: rgb(214, 233, 214);
+    padding: 90px 80px 90px 80px ;
+
+}
+.Head  p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.green{
+    color: green;
+    margin: 0;
+}
+
+.message{
+    color: rgb(99, 97, 97);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.head-btn{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+
+/*Features */
+#Features{
+    padding: 90px 0px 90px 0px;
+}
+
+.Features-head p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.Features-message{
+    color: rgb(99, 97, 97);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Features-tab{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr ;
+    margin: 50px 80px 50px 80px;
+    gap: 2rem;
+}
+
+.F-tab{
+    border: 0px 10px #000;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 2px 5px 0px gray;
+    border-radius: 20px;
+}
+
+.Features-tab img{
+    height: 2.5rem;
+}
+
+.Features-tab p{
+    color: rgb(99, 97, 97);
+    font-size: 1rem;
+}
+
+
+/*About*/
+#About{
+    background-color: green;
+    padding: 90px 0px 90px 0px;
+}
+
+
+.About-head p{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.About-message p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.About-btn{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+/* Contact */
+
+#Contact{
+    background-color: #101828;
+    color: whitesmoke;
+    padding-top: 90px;
+}
+
+.container-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+}
+
+.container-5 li{
+    list-style: none;
+}
+
+#Contact footer{
+    
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+
+/*---------------------------------------------*/
+
+/*Login*/
+
+
+
+
+
+.Login-body{
+    background-color: #f0fbf7;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;           
+    margin: 0;
+}
+
+.container-6{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 400px;   
+    background-color: white; 
+    border: 10px 10px #000;
+    border-radius: 10px;       
+    box-shadow: 0px 2px 5px 0px gray;    
+    padding: 20px 20px;
+}
+
+.container-6 h3,
+.Login-head,
+.Login-message {
+    text-align: center;
+}
+
+.container-6 h3{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.Login-head{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.Login-message{
+    text-align: center;
+    color: gray;
+    font-size: 1rem;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.login-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.no-btn{
+    border: none;
+    background-color: white;
+    color: green;
+    padding-top: 10px 0;
+    cursor: pointer;
+    
+}
+
+
+.email{
+    padding-top: 5px 0;  
+}
+
+.password{
+    padding: 5px 0;
+}
+
+.container-6 input[type="email"],
+.container-6 input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.sign-up-section {
+    text-align: center;
+
+}
+
+.sign-up-section button {
+    border: none;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+/*Sign-up */
+
+.sign-up-body{
+    background-color: #f0fbf7;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;           
+    margin: 0;
+}
+
+.sign-up-head{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.sign-up-message{
+    text-align: center;
+    color: gray;
+    font-size: 1rem;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.container-6 h3,
+.sign-up-head,
+.sign-up-message {
+    text-align: center;
+}
+
+.sign-up-btn{
+    display: block;
+    margin: 15px auto;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sign-in-section{
+     text-align: center;
+}
+
+.sign-in-section button{
+    border: none;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.full-name{
+    display: flex;
+    gap: 10px;
+    padding: 5px 0;
+}
+.full-name div{
+    flex: 1;
+}
+
+.full-name input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.account-type{
+    padding: 5px 0;
+}
+
+.account-type select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+
+
+/* ------admin-------*/
+.container-7{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.in-contain{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    gap: 20px;
+}
+/* .admin-tag{
+    background-color: rgb(215, 210, 210);
+    border-radius: 20%; 
+    padding: 0px 10px;
+     
+} */
+.admin-tag {
+    background-color: rgb(240, 240, 240); /* lighter gray like in image */
+    border-radius: 20px; /* pill shape */
+    padding: 5px 12px; /* add vertical padding */
+    display: inline-flex; /* align icon and text */
+    align-items: center; /* vertically center */
+    gap: 6px; /* spacing between icon and text */
+    font-size: 14px; /* text size */
+    font-weight: 500; /* slightly bold */
+    color: #333; /* text color */
+}
+
+.admin-tag p{
+    margin: 5px 0px;
+}
+.admin-tag-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.adn-btn{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(240, 240, 240);
+}
+
+.user-details{
+     
+}
+#admin{
+    padding: 90px 80px 90px 0px ;
+}
+
+.admin-content{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin-left: 50px;
+}
+.admin-head  p{
+    
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.admin-heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.hey {
+    color: gray;
+    font-size: 1.5rem;
+    margin: 0;
+}
